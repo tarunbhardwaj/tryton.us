@@ -76,7 +76,7 @@
 	font-weight: normal;
 	position: relative;
 	float: right;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-top: 0px;
@@ -112,7 +112,7 @@
 #access .menu ul li a {
 	display: inline-block;
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	line-height: 1;
 	color: #3d3d48;
@@ -159,7 +159,7 @@
 	display: block;
 	padding: 14px 17px 14px 17px;
 	font-size: 13px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 	color: #454545;
 	background: #fff;
@@ -469,7 +469,7 @@ a.button_slider_03:hover {
 .features_section2 {
 	float: left;
 	width: 100%;
-	background-color: #f6f6f6;
+	background-color: #fff;
 }
 .features_section2 .one_half {
 	position: relative;
@@ -610,7 +610,7 @@ html .features_section3 .left ul.tabs li.active, html .features_section3 .left u
 }
 .punch_text03 .left {
 	float: left;
-	width: 72%;
+	width: 65%;
 }
 .punch_text03 .left h1 {
 	font-size: 31px;
@@ -626,7 +626,7 @@ html .features_section3 .left ul.tabs li.active, html .features_section3 .left u
 
 .punch_text03 .right {
 	float: right;
-	width: 26%;
+	width: 35%;
 	min-height: 120px;
 	background: url(../images/h-line.png) no-repeat left top;
 }
@@ -872,6 +872,9 @@ ul.footer_social_links {
 	padding: 28px 0px;
 	background-color: #3398d4;
 }
+.page_title.app-landing{
+	min-height: 580px;
+}
 .page_title .title {
 	width: 100%;
 	float: left;
@@ -887,7 +890,7 @@ ul.footer_social_links {
 .page_title .pagenation {
 	float: left;
 	width: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 	font-size: 12px;
 	text-align: left;
@@ -1069,7 +1072,7 @@ ul.list_doted02 {
 }
 
 .big_text1 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	font-size: 27px;
 	line-height: 35px;
@@ -1232,7 +1235,7 @@ ul.lirt_section {
   font-size: 22px;
 }
 .lirt_section li strong {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	color: #3398d4;
@@ -1252,7 +1255,7 @@ ul.lirt_section {
 	border: 1px solid #eee;
 	border-bottom: 5px solid #eee;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 .error_pagenotfound strong {
 	display: block;
@@ -1410,7 +1413,7 @@ ul.small_social_links {
 	margin: 0px;
 	font-size: 13px;
 	color: #333;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -1461,7 +1464,7 @@ ul.small_social_links {
 	float: left;
 	margin-top: 3px;
 	text-transform: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	font-size: 30px;
 }
@@ -1632,7 +1635,7 @@ ul.post_meta_links_small {
 	font-weight: normal;
 	display: block;
 	margin-bottom: 10px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 }
 .blog_post a.date:hover strong {
@@ -1647,7 +1650,7 @@ ul.post_meta_links_small {
 	border-top: 1px solid #f3f3f3;
 	width: 40px;
 	background-color: #3398d4;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 }
 .blog_post a.date:hover i {
@@ -1709,7 +1712,7 @@ ul.post_meta_links_small {
 	margin-right: 20px;
 }
 .about_author a {
-	font-family: 'Open Sans' !important;
+	font-family: 'Raleway' !important;
 	font-weight: normal;
 	font-weight: 600;
 	color: #333;
@@ -1724,7 +1727,7 @@ ul.post_meta_links_small {
 	clear:both;
 	padding:10px 0;
 	margin-bottom:20px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 .pagination b{
 	float:left;
@@ -1803,7 +1806,7 @@ ul.post_meta_links_small {
 	background-color: #eee;
 	border: 1px solid #ddd;
 	padding: 9px 13px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	border-radius: 4px;
 	color: #333;
@@ -2231,7 +2234,7 @@ a.but_download,
 a.but_pdf,
 a.but_word_doc,
 a.but_woman {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	color: #fff;
 	font-weight: 600;
@@ -2738,7 +2741,7 @@ p.error {
 	float: left;
 	text-align: center;
 	overflow:hidden;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
 .dropcap1 {
@@ -2851,7 +2854,7 @@ ul.list1 {
 	border: 1px solid #dcdcdc;/* IE */
 	border: rgba(0, 0, 0, .2) 1px solid;/* Saf4+, Chrome, FF3.6 */
 	border-bottom:rgba(0, 0, 0, .4) 1px solid;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
 
@@ -3021,7 +3024,7 @@ ul.list_empty {
 	color: #fff;
 	border-top: 3px solid #272727;
 	border-bottom: 1px solid #818181;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
 .pricing-tables .price {
@@ -3032,7 +3035,7 @@ ul.list_empty {
 	text-align: center;
 	font-size: 40px;
 	color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
 .pricing-tables .price i {
@@ -3116,7 +3119,7 @@ ul.list_empty {
 	color: #fff;
 	border-top: 3px solid #2285c0;
 	border-bottom: 1px solid #41a3dd;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
 .pricing-tables-helight .price {
@@ -3127,7 +3130,7 @@ ul.list_empty {
 	text-align: center;
 	font-size: 45px;
 	color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
 .pricing-tables-helight .price i {
@@ -3188,7 +3191,7 @@ ul.list_empty {
 	color: #fff;
 	border-top: 3px solid #272727;
 	border-bottom: 1px solid #818181;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
 .pricing-tables-two .price {
@@ -3199,7 +3202,7 @@ ul.list_empty {
 	text-align: center;
 	font-size: 40px;
 	color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
 .pricing-tables-two .price i {
@@ -3263,7 +3266,7 @@ ul.list_empty {
 	color: #fff;
 	border-top: 3px solid #2285c0;
 	border-bottom: 1px solid #41a3dd;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
 .pricing-tables-helight-two .price {
@@ -3274,7 +3277,7 @@ ul.list_empty {
 	text-align: center;
 	font-size: 45px;
 	color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 }
 .pricing-tables-helight-two .price i {
@@ -3450,7 +3453,7 @@ ul.lirc_section {
 	background: #f9f9f9;
 }
 .punchline_text_box strong {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 	color: #3d3d48;
@@ -3564,8 +3567,31 @@ a.knowmore_but:hover {
 .isotope .isotope-item{
 	transition:all .3s;
 }
-.isotope .isotope-item:hover{
-	box-shadow: 0 0 20px #ddd;
+.isotope .isotope-item:hover div.apps-data{
+	position: absolute;
+	transition: all .3s;
+	margin-top: 50%;
+}
+.isotope .isotope-item .hover-content{
+	text-align: center;
+}
+.isotope .isotope-item:hover .hover-content{
+	position: absolute;
+	transition: all .3s;
+	background: rgba(255, 255, 255, 0.7);
+	padding-bottom:10px;
+	margin-top: 20%;
+}
+.isotope .isotope-item .hover-content > .additional{
+	display: none;
+}
+.isotope .isotope-item:hover .hover-content > .additional{
+	display: inline-block;
+}
+.isotope .isotope-item .hover-content > p{
+	width: 100%;
+	text-align: center;
+	color: #000;
 }
 .portfolio_page h3{
 	color:#2283bc;
@@ -3580,4 +3606,32 @@ a.knowmore_but:hover {
 .apps-data{
 	text-align:center;
 	color:#000;
+}
+.carousel-control.right{
+	background: rgba(255, 255, 255, 0) !important;
+}
+.carousel-control.left{
+	background: rgba(255, 255, 255, 0) !important;
+}
+.carousel-control.success-slide{
+	top: 110px;
+	color: #ccc;
+}
+div#success-stories{
+	padding-bottom:50px;
+	padding-left:25px;
+	padding-right:25px;
+	min-height: 450px;
+}
+.text-white{
+	color: #fff !important;
+}
+.additional{
+	padding:6px;
+	margin-top:10px;
+	background: rgba(255, 255, 255, 0);
+	border: 1px solid #3398d4;
+	border-radius: 3px;
+	color: #3398d4;
+	font-size: 9pt;
 }
