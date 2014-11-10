@@ -606,7 +606,7 @@ html .features_section3 .left ul.tabs li.active, html .features_section3 .left u
 	float: left;
 	width: 100%;
 	padding: 10px 0px;
-	background-color: #3398d4;
+	background-color: #0083E0;
 }
 .punch_text03 .left {
 	float: left;
@@ -874,6 +874,11 @@ ul.footer_social_links {
 }
 .page_title.app-landing{
 	min-height: 580px;
+	padding-bottom: 25px;
+	background: url('../images/temp-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 .page_title .title {
 	width: 100%;
@@ -3634,4 +3639,28 @@ div#success-stories{
 	border-radius: 3px;
 	color: #3398d4;
 	font-size: 9pt;
+}
+.heading-div > .divider-line{
+	border-bottom: 2px solid #fff;
+}
+.heading-div > p{
+	font-size: 14pt;
+	line-height: 20pt;
+}
+.margin-top-150{
+	margin-top:150px;
+}
+h1{
+	font-weight: bold;
+	line-height: 1.1;
+	color: inherit;
+	font-family: inherit;
+	margin: 0.67em 0;
+}
+.text-center{
+	text-align: center;
+}
+.apps-page-divider{
+	width: 200px;
+	border-bottom: 2px solid #fff;
 }
