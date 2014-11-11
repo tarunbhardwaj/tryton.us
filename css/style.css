@@ -3708,11 +3708,14 @@ textarea.flat-control:focus{
 .pad-bottom-100{
 	padding-bottom: 100px !important;
 }
-.border-blue{
+.divider-blue{
 	border-bottom: 2px solid #2283bc;
 }
 .text-blue{
 	color: #2283bc;
+}
+.text-green{
+	color: #2ecc71;
 }
 .margin-top-25{
 	margin-top: 25px;
