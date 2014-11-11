@@ -3631,6 +3631,9 @@ div#success-stories{
 .text-white{
 	color: #fff !important;
 }
+.text-smoke{
+	color: #ccc !important;
+}
 .additional{
 	padding:6px;
 	margin-top:10px;
@@ -3647,11 +3650,14 @@ div#success-stories{
 	font-size: 14pt;
 	line-height: 20pt;
 }
+.margin-bottom-0{
+	margin-bottom: 0px !important;
+}
 .margin-top-150{
 	margin-top:150px;
 }
 h1{
-	font-weight: bold;
+	font-weight: bold !important;
 	line-height: 1.1;
 	color: inherit;
 	font-family: inherit;
@@ -3663,4 +3669,57 @@ h1{
 .apps-page-divider{
 	width: 200px;
 	border-bottom: 2px solid #fff;
+}
+input.flat-control{
+	background: transparent;
+	box-shadow: none !important;
+	border: none !important;
+	border-bottom: 1px solid #00adef !important;
+	margin: 0 10px 10px 10px;
+	padding: 0 5px;
+	max-width: 250px;
+	cursor: text;
+	text-align: center;
+}
+input.flat-control:focus{
+	border-bottom: 1px solid #2ecc71 !important;
+}
+textarea.flat-control{
+	background: transparent;
+	box-shadow: none !important;
+	border: 1px solid #00adef !important;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+	cursor: text;
+	resize: none;
+	width: 100%
+}
+textarea.flat-control:focus{
+	border: 1px solid #2ecc71 !important;
+}
+#request-panel{
+	background: rgba(255, 255, 255, .95);
+	padding: 20px;
+	padding-bottom: 40px;
+	border-radius: 3px;
+	box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+.pad-bottom-100{
+	padding-bottom: 100px !important;
+}
+.border-blue{
+	border-bottom: 2px solid #2283bc;
+}
+.text-blue{
+	color: #2283bc;
+}
+.margin-top-25{
+	margin-top: 25px;
+}
+.margin-top-40{
+	margin-top: 40px;
+}
+.margin-top-75{
+	margin-top: 75px;
 }
