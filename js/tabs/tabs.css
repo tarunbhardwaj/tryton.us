@@ -26,28 +26,32 @@
 		margin-bottom: -1px;
 		overflow: hidden;
 		position: relative;
-		border-right: 1px solid #fff;
  	}
 	ul.tabs li a {
 		text-decoration: none;
-		color: #fff;
 		display: block;
 		font-size: 14px;
  		outline: none;
  		cursor: pointer;
 		text-align: center;
 		padding: 0px 15px 0px 15px;
-		background-color: #3398d4;
+		background-color: #fff !important;
 		font-family: 'Open Sans' !important;
 		font-weight: normal;
+		margin-left: 5px;
+		margin-right: 5px;
+		color: #ccc;
+		border: 2px solid #ccc;
+		border-radius: 3px;
 	}
 	ul.tabs li a:hover {
  	}
  	
 	html ul.tabs li.active, html ul.tabs li.active a,  html ul.tabs li.active a:hover  { 
-		color:#454545;
-		background-color: #f6f6f6;
-		height: 44px;
+		color:#2283bc;
+		border-color: #2283bc;
+		font-weight: bold;
+		background-color: #fff;
  	}
 	
 	
@@ -60,7 +64,7 @@
  }
 .tab-content {
 	padding: 30px 25px 30px 25px;
-	background: #f6f6f6;
+	background: #fff;
 }
 	
 .tab-content h4 { 

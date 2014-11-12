@@ -3736,3 +3736,10 @@ textarea.flat-control:focus{
 .company-contacts{
 	border-bottom: 1px solid #ddd;
 }
+.pad-all-20{
+	padding: 20px;
+}
+.border-left-right{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
