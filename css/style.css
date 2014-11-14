@@ -3717,6 +3717,9 @@ textarea.flat-control:focus{
 .text-green{
 	color: #2ecc71;
 }
+.text-red{
+	color: #e74c3c;
+}
 .margin-top-25{
 	margin-top: 25px;
 }
@@ -3742,4 +3745,7 @@ textarea.flat-control:focus{
 .border-left-right{
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
+}
+.hard-bold{
+	font-weight: bold !important;
 }
