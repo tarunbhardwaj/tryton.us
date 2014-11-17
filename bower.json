@@ -1,0 +1,20 @@
+{
+  "name": "tryton.openlabs.us",
+  "version": "0.0.0",
+  "homepage": "tryton.us",
+  "authors": [
+    "Tarun Bhardwaj <tarun.bhardwaj@openlabs.co.in>"
+  ],
+  "description": "Tryton Website",
+  "keywords": [
+    "Tryton"
+  ],
+  "license": "CC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ]
+}
