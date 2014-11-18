@@ -1,0 +1,286 @@
+/* Navbar css starts */
+.none-list-type {
+  list-style-type: none;
+}
+
+.logo {
+	display: block;
+	max-width: 168px;
+	height: 31px;
+	margin-top: 18px;
+	background: url(../images/logo.png) no-repeat;
+	min-width: 113px;
+}
+
+.navResize {
+	height: 70px;
+	margin-bottom: 0;
+  opacity: 0.98;
+}
+
+.navbar-nav>li>a {
+	line-height: 40px;
+}
+
+.navbar-right li a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #3d3d48;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main-menu > ul {
+  display: none;
+  background: #fff;
+  z-index: 1030;
+  position: absolute;
+  top: 69px;
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.navbar-right li ul li a {
+	font-weight: normal;
+	margin: 0;
+  border: none;
+  display: block;
+  padding: 14px 17px 14px 17px;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color: #454545;
+  background: #fff;
+  text-align: left;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+/* Navbar css ends */
+
+/* carousel css starts */
+
+.sliderImg {
+  min-height: 500px;
+  width: 1920px;
+}
+
+
+/* carousel css ends */
+
+
+/* basic_info css starts */
+
+.basic_info {
+  background: #f6f6f6
+}
+
+.top_Spacing {
+  margin-top:60px; 
+}
+
+p {
+  font: 13px 'Open Sans', sans-serif;
+  font-weight: normal;
+  line-height: 22px;
+}
+
+.basic_info_heading {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* basicinfo css ends */
+
+
+/* characteristics css starts */
+.characteristics .characteristics_heading {
+  color: #3398d4;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mar_bottom3 {
+  margin-bottom: 30px;
+}
+
+.rounded-icon {
+  width: 56px;
+  height: 56px;
+  background-color: #3398d4;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 56px;
+  border-radius: 100%;
+  margin-right: 20px;
+  font-size: 29px;
+}
+.characteristics .rounded-icon i {
+  top: 3px;
+  position: relative;
+  font-size: 33px;
+}
+
+.characteristics .rounded-icon .glyphicon {
+  top:4px;
+}
+
+.mar_top3 {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.mar_top4 {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.mar_top5 {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.mar_top6 {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.mar_top7 {
+  margin-top: 70px;
+  width: 100%;
+}
+
+/* characteristics css ends */
+
+/* app css starts */
+
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.app img {
+  margin: auto;
+}
+
+.app .info {
+  margin-top: 25px;
+}
+
+/* app section css ends */
+
+/*use-reason section css start */
+
+.use-reason {
+  background: #f6f6f6;
+  width: 100%;
+}
+
+.use-reason .use-reason_heding {
+  background: #f6f6f6;
+  width: 100%;
+  margin-top: 28px;
+  color: #8a8a8a;
+}
+
+.use-reason ul {
+  padding: 0;
+}
+
+.use-reason ul li {
+  padding: 7px 0;
+  margin: 0;
+  color: #3d3d48;
+}
+
+.use-reason ul li i {
+  color: #0a70e3;
+  margin-right: 18px;
+}
+/* use-reason section css ends */
+/* users section css starts */
+
+.users_heading {
+  text-align: center;
+}
+
+.gna_img_reposition {
+  line-height: 99px;
+}
+
+.knowMoreSection {
+  background: #0a70e3;
+  width: 100%;
+}
+
+.knowMoreSection button {
+  margin-top: 32px;
+}
+
+.line_img {
+  background:url(../images/h-line.png) no-repeat left top;
+  width: 6%;
+  margin-right: 16px;
+  min-height: 119px; 
+}
+
+.footer {
+ width: 100%;
+ background-color: #3d3d48;
+ color: #999;
+}
+
+.footer .footer_headings {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer .contact_address {
+  padding: 0;
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+
+.footer .link_list li {
+  line-height: 30px;
+}
+
+.footer .link_list li :hover {
+  color: #fff;
+}
+
+.footer .link_list a {
+  color: #999;
+}
+
+.footer-set-height{
+  min-height: 316px;
+}
+
+.community_address {
+  padding: 0;
+}
+
+.text-red {
+  color: #e74c3c;
+}
+
+.content_licensed {
+  padding: 18px 0 18px 0;
+  margin: 0;
+  color: #999;
+  background-color: #fff;
+}
+
+.white-text-color {
+  color:#fff;
+}
+
+.carousel-control.carousel-color-none{
+  background-image: none;
+}
+
