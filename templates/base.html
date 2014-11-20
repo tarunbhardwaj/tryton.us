@@ -18,7 +18,7 @@
 <body>
   <!-- main navigation -->
   {% block nav_bar %}
-  <nav class="navbar navbar-default navbar-fixed-top navResize" role="navigation">
+  <div class="navbar navbar-default navbar-fixed-top navResize" role="navigation">
     <div class="padding-auto-0 container-fluid">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -81,7 +81,7 @@
         </div><!-- /.navbar-collapse -->
       </div>
     </div><!-- /.container-fluid -->
-  </nav>
+  </div>
   {% endblock %}
 
   <!-- main content -->
@@ -172,9 +172,7 @@
 <script src="{{ STATIC }}bower_components/jquery/dist/jquery.min.js"></script>
 <script src="{{ STATIC }}bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="{{ STATIC }}js/selectnav.js"></script>
-<script>
 
-</script>
 {% endblock script_tags %}
 </body>
 </html>

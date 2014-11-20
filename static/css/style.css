@@ -1,4 +1,12 @@
 /* Navbar css starts */
+body { 
+  padding-top: 70px; 
+}
+
+.text-center {
+  text-align: center;
+}
+
 .none-list-type {
   list-style-type: none;
 }
@@ -283,4 +291,44 @@ p {
 .carousel-control.carousel-color-none{
   background-image: none;
 }
+
+.app-banner{
+  min-height: 580px;
+  background:url(../images/temp-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  padding: 28px 0;
+}
+.banner-heading{
+  font-size:40px;
+}
+
+.font-bold{
+  font-weight: bold;
+}
+
+.mar-top-150{
+  margin-top: 150px;
+}
+
+.app-banner-divider{
+  width: 200px;
+  border-top: 2px solid #fff;
+}
+
+.app-banner p{
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.app-detail h4{
+  color:#2283bc;
+  font-size: 22px;
+}
+
+.remove_background{
+  background-color:transparent; 
+}
+
 
