@@ -3,7 +3,7 @@
 {% block title %} Home | {{ super() }} {% endblock title %}
 
 {% block main %}
-<div class="sliderSection-img">
+<div class="slider-section-img ">
   <div id="carousel-banner" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -38,9 +38,9 @@
 <div class="clearfix"></div>
 <section class="basic_info">
   <div class="container">
-    <div class="mar_top6">
+    <div class="mar_top6 clearfix">
       <div class="col-xs-12 col-sm-6 col-md-6">
-        <img src="{{ STATIC }}images/videomac.png" class="img-responsive mar_bottom3 content-center-xs" alt="tryton mac video" />
+        <img src="{{ STATIC }}images/videomac.png" class="img-responsive mar_bottom3 clearfix content-center-xs" alt="tryton mac video" />
       </div>
       <div class="col-xs-12 col-sm-6 col-md-6 text-center-xs">
         <ul>
@@ -61,9 +61,8 @@
       </div>
     </div>
   </section>
-  <div class="mar_top7"></div>
-  <div class="clearfix"></div>
-  <section class="characteristics">
+  <div class="mar_top7 clearfix"></div>
+    <section class="characteristics">
     <div class="container">
       <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="rounded-icon pull-left">
@@ -88,13 +87,12 @@
       </div>
     </div>
   </section>
-  <div class="mar_top6 pull-left"></div>
-  <div class="clearfix"></div>
-  <section class="app">
+  <div class="mar_top6 clearfix"></div>
+    <section class="app">
     <div class="container">
       <h1 class="text-center-xs text-center-sm text-uppercase">Featured <strong>Apps</strong></h1>
       <div class="col-md-3 col-sm-6 col-xs-12">
-        <img src="{{ STATIC }}images/apps-accounts.png" class="img-responsive mar_bottom3" alt="accounts_app" />
+        <img src="{{ STATIC }}images/apps-accounts.png" class="img-responsive clearfix mar_bottom3" alt="accounts_app" />
         <div class="info">
           <h4 class="text-center text-uppercase">Accounts
           <h5 class="text-center text-muted">Automates complex accounting processes</h5>
@@ -122,15 +120,14 @@
         </div> 
       </div>
     </div>
-    <div class="container text-center mar_top4">
+    <div class="container text-center mar_top4 clearfix">
       <button type="button" class="btn btn-primary">VIEW ALL APPS &nbsp; <i class="fa fa-cube"></i></button>
     </div>
   </section>
-  <div class="mar_top4"></div>
-  <div class="clearfix"></div>
+  <div class="mar_top4 clearfix"></div>
   <section class="use-reason">
     <div class="container">
-      <div class="mar_top6 pull-left"></div>
+      <div class="mar_top6"></div>
       <div class="col-md-8 col-sm-8 col-xs-12">
         <h2 class="text-center-xs">Where is <strong>Tryton</strong> Used?</h2>
         <div role="tabpanel">
@@ -183,21 +180,15 @@
           </ul>
         </div>
       </div>
-      <div class="mar_top6 pull-left"></div>
+      <div class="mar_top6 clearfix"></div>
     </div>
   </section>
-  <div class="mar_top6 pull-left"></div>
+  <div class="mar_top6 clearfix"></div>
   <section class="users">
     <div class="container">
       <h3 class="text-center">WHO USES TRYTON</h3>
-      <div class="mar_top5 pull-left"></div>
+      <div class="mar_top5 clearfix"></div>
       <div id="carousel-user" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-user" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-user" data-slide-to="1"></li>
-          <li data-target="#carousel-user" data-slide-to="2"></li>
-        </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
@@ -229,10 +220,10 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="mar_top5 pull-left">
+      <div class="mar_top5 clearfix">
       </div>
     </div>
-    <div class="knowMoreSection pull-left">
+    <div class="know-more pull-left">
       <div class="container">
         <div class="col-md-8 col-sm-9 col-xs-12">
           <h3 class="text-center-xs white-text-color">Want To Know More About <strong>TRYTON</strong></h3>
@@ -240,7 +231,7 @@
         </div>
         <div class="col-md-4 col-sm-3 col-xs-12 text-center-xs">
           <div class="line_img pull-left hidden-sm hidden-xs"></div>
-          <button type="button" class="btn btn-lg btn-default"><i class="fa fa-comments fa-lg"></i>&nbsp; &nbsp; Contact Now</button>
+          <button type="button" class="btn btn-lg btn-default mar_bottom3 clearfix"><i class="fa fa-comments fa-lg"></i>&nbsp; &nbsp; Contact Now</button>
         </div>
       </div>
     </div>

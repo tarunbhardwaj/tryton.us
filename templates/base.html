@@ -18,7 +18,7 @@
 <body>
   <!-- main navigation -->
   {% block nav_bar %}
-  <div class="navbar navbar-default navbar-fixed-top navResize" role="navigation">
+  <div class="navbar navbar-default navbar-fixed-top nav-resize" role="navigation">
     <div class="padding-auto-0 container-fluid">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -36,28 +36,22 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="main-menu"><a href="#" class="active">Home</a></li>
             <li class="main-menu"><a href="#">About</a></li>
-            <li class="main-menu"><a href="#">Features</a>
-              <ul class="hidden">
-                <li><a href="features.html">Fast</a>
-                </li>
-                <li><a href="features.html">OpenSource</a>
-                </li>
-                <li><a href="features.html">API</a>
-                </li>
-                <li><a href="features.html">Customizable</a>
-                </li>
-                <li><a href="features.html">Scalable</a>
-                </li>
-                <li><a href="features.html">Secure</a>
-                </li>
-                <li><a href="features.html">Modular</a>
-                </li>
-                <li><a href="features.html">Stable</a>
-                </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Features<span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-position" role="menu">
+                <li><a href="#">Fast</a></li>
+                <li><a href="#">OpenSource</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Customizable</a></li>
+                <li><a href="#">Scalable</a></li>
+                <li><a href="#">Secure</a></li>
+                <li><a href="#">Modular</a></li>
+                <li><a href="#">Stable</a></li>
               </ul>
             </li>
-            <li class="main-menu" ><a href="#">Apps</a>
-              <ul class="hidden">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Apps<span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-position" role="menu">
                 <li><a href="ecommerce.html">eCommerce</a>
                 </li>
                 <li><a href="accounts.html">Accounts</a>
@@ -90,7 +84,7 @@
   <!-- footer -->
   {% block footer %}
   <div class="footer pull-left">
-    <div class="mar_top7"></div>
+    <div class="mar_top7 clearfix"></div>
     <div class="container">
       <div class="col-md-3 col-sm-6 col-xs-12 text-center-xs footer-set-height">
         <img src="{{ STATIC }}images/footer-logo.png" alt="trytonLogo" />
@@ -156,7 +150,7 @@
         <div class="col-md-12 text-center">
           <p class="white-text-color">Made with <i class="fa fa-heart text-red"></i> by <strong><a href="https://www.openlabs.co.in" class="white-text-color">Team OPENLABS</a></strong></p>
         </div>
-        <div class="clearfix mar_top3 pull-left"></div>
+        <div class="clearfix mar_top3 clearfix pull-left"></div>
       </div>
     </div>
     <div class="content_licensed col-md-12 col-sm-12 col-xs-12">
@@ -171,7 +165,6 @@
 {% block script_tags %}
 <script src="{{ STATIC }}bower_components/jquery/dist/jquery.min.js"></script>
 <script src="{{ STATIC }}bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="{{ STATIC }}js/selectnav.js"></script>
 
 {% endblock script_tags %}
 </body>

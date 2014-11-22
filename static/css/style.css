@@ -3,10 +3,6 @@ body {
   padding-top: 70px; 
 }
 
-.none-list-type {
-  list-style-type: none;
-}
-
 .logo {
   display: block;
   max-width: 168px;
@@ -16,7 +12,7 @@ body {
   min-width: 113px;
 }
 
-.navResize {
+.nav-resize {
   height: 70px;
   margin-bottom: 0;
   opacity: 0.98;
@@ -33,15 +29,12 @@ body {
   text-transform: uppercase;
 }
 
-.navbar-nav li ul {
-  display: none;
-  background: #fff;
-  z-index: 1030;
-  position: absolute;
+.navbar-right .dropdown-position{
+  
   top: 69px;
-  list-style-type: none;
-  padding-left: 0;
-  padding-right: 15px;
+  right:0;
+  left:0;
+  
 }
 
 .navbar-right li ul li a {
@@ -49,7 +42,7 @@ body {
   margin: 0;
   border: none;
   display: block;
-  padding: 14px 17px 14px 17px;
+  padding: 4px 9px 9px 17px;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
   color: #454545;
@@ -104,10 +97,6 @@ p {
 
 .characteristics .rounded-icon .glyphicon {
   top:4px;
-}
-
-.mar_top3, .mar_top4, .mar_top5, .mar_top6, .mar_top7, .sliderSection-img, .mar-top-150 {
-  width: 100%;
 }
 
 .mar_top3 {
@@ -193,12 +182,12 @@ p {
   line-height: 99px;
 }
 
-.knowMoreSection {
+.know-more {
   background: #0a70e3;
   width: 100%;
 }
 
-.knowMoreSection button {
+.know-more button {
   margin-top: 32px;
 }
 
