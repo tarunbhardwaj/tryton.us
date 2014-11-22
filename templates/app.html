@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block title %} App | {{ super() }} {% endblock title %}
+
+{% block main %}
+<section class="app-banner">
+	<div class="container">
+		<ol class="breadcrumb remove_background">
+			<li><a class="white-text-color" href="#">Home</a></li>
+			<li class="white-text-color">Apps</li>
+		</ol>
+		<div class="mar-top-150"></div>
+		<div class="text-center">
+			<h1 class="white-text-color font-bold">CONSOLIDATE YOUR DATA<br>AND THE ENTIRE BUSINESS PROCESSES</h1>
+			<br>
+			<div class="col-sm-12" >
+				<div class="col-sm-2 col-sm-offset-5">
+					<hr class="app-banner-divider">
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div>
+				<p class="white-text-color">Tryton is a unified suite of applications that provides a 'single interface' for your business information, increasing accuracy, for faster and smarter decision making.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="app-detail">
+	<div class="container">
+		<div class="mar_top5"></div>
+		<div class="col-xs-12 col-sm-12 col-md-12">
+			<div class="col-xs-12 col-sm-4 col-md-4 mar_bottom3">
+				<img src="{{ STATIC }}images/apps-ecommerce.png" class="img-responsive mar_bottom3 content-center-xs" alt="e_com_app" />
+				<h4 class="text-center">eCommerce</h4>
+				<h5 class="text-center">Design your webstore with ease</h5>
+
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 mar_bottom3">
+				<img src="{{ STATIC }}images/apps-accounts.png" class="img-responsive mar_bottom3 content-center-xs" alt="e_com_app" />
+				<h4 class="text-center">Accounts</h4>
+				<h5 class="text-center">Automates complex accounting processes</h5>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 mar_bottom3">
+				<img src="{{ STATIC }}images/apps-inventory.png" class="img-responsive mar_bottom3 content-center-xs" alt="e_com_app" />
+				<h4 class="text-center">Inventory</h4>
+				<h5 class="text-center">Manage and monitor your inventory levels</h5>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 mar_bottom3">
+				<img src="{{ STATIC }}images/apps-crm.png" class="img-responsive mar_bottom3 content-center-xs" alt="e_com_app" />
+				<h4 class="text-center">CRM</h4>
+				<h5 class="text-center">Convert more Leads into customers</h5>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 mar_bottom3">
+				<img src="{{ STATIC }}images/apps-purchase.png" class="img-responsive mar_bottom3 content-center-xs" alt="e_com_app" />
+				<h4 class="text-center">Purchase</h4>
+				<h5 class="text-center">Complete control of your purchasing</h5>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 mar_bottom3">
+				<img src="{{ STATIC }}images/apps-orders.png" class="img-responsive mar_bottom3 content-center-xs" alt="e_com_app" />
+				<h4 class="text-center">Orders</h4>
+				<h5 class="text-center">Process you orders faster and efficiently</h5>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 mar_bottom3">
+				<img src="{{ STATIC }}images/apps-projects.png" class="img-responsive mar_bottom3 content-center-xs" alt="e_com_app" />
+				<h4 class="text-center">Projects</h4>
+				<h5 class="text-center">Organize, track and get work done</h5>
+			</div>
+		</div>
+	</div>
+	<div class="mar_top5"></div>
+</section>
+
+{% endblock main %}
