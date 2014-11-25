@@ -14,6 +14,7 @@ git clone git@github.com:openlabs/tryton.us
 cd tryton.us
 
 # The pelican plugins are in a submodule
+git submodule init
 git submodule update
 
 # Install the dependencies
