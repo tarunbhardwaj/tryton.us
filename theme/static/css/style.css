@@ -1,8 +1,12 @@
 /* Navbar css starts */
 body { 
-  padding-top: 70px; 
+  padding-top: 70px;
+  color: #727272;
 }
 
+a:hover {
+  text-decoration: none;
+}
 .logo {
   display: block;
   max-width: 168px;
@@ -20,7 +24,6 @@ body {
 
 .navbar-nav > li > a {
   line-height: 40px;
-  display: inline-block;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -30,11 +33,9 @@ body {
 }
 
 .navbar-right .dropdown-position{
-  
   top: 69px;
   right:0;
   left:0;
-  
 }
 
 .navbar-right li ul li a {
@@ -56,15 +57,8 @@ body {
 /* basic_info css starts */
 
 .basic_info {
-  background: #f6f6f6
+  background: #f6f6f6;
 }
-
-p {
-  font: 13px 'Open Sans', sans-serif;
-  font-weight: normal;
-  line-height: 22px;
-}
-
 
 /* basicinfo css ends */
 
@@ -97,6 +91,10 @@ p {
 
 .characteristics .rounded-icon .glyphicon {
   top:4px;
+}
+
+.mar_top2 {
+  margin-top: 20px;
 }
 
 .mar_top3 {
@@ -253,7 +251,7 @@ p {
 
 .app-banner{
   min-height: 580px;
-  background:url(../images/temp-bg.jpg) no-repeat;
+  background:url(../images/app/temp-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 
@@ -265,8 +263,9 @@ p {
 }
 
 .app-banner-divider{
-  width: 200px;
   border-top: 2px solid #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .app-banner p{
@@ -299,18 +298,12 @@ p {
 .img-frame{
   border:7px solid #fff;
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
-
 }
 
-.tul{
-  border: 1px solid #fff;
-  width: 99.7%;
-}
 
 .blog-date{
   background-color:#FFFFFF; 
   margin-right: 15px;
-  
 }
 
 .blog-month{
@@ -336,15 +329,53 @@ p {
 }
 
 .post-by{
-  background:url(../images/icon-by-user.png) no-repeat 0 5px;
+  background:url(../images/article/icon-by-user.png) no-repeat 0 5px;
   padding: 0 0 0 18px;
 }
 
 .post-event{
-  background:url(../images/icon-category.png) no-repeat 9px 5px;
+  background:url(../images/article/icon-category.png) no-repeat 9px 5px;
   padding: 0 0 0 26px;
 }
 
-.position-top0{
-  top:0;
+#search-submit{
+  background:#0a70e3 url(../images/article/site-search-icon.png) no-repeat center;
+  height: 34px;
+  width: 39px;
+  border:none;
+}
+
+.input-radius{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* foundation.html css starts */
+
+.smallmap{
+  height:256px;
+  width:100%;
+}
+
+.divider-line{
+ margin: 35px 0px 50px 0px;
+ border-bottom: 1px solid #ddd;
+}
+
+.img-height{
+  height: 200px;
+}
+
+.line_height{
+  line-height: 35px;
+}
+
+.tryton-companies:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.divider-blue {
+  border-bottom: 2px solid #2283bc;
 }
