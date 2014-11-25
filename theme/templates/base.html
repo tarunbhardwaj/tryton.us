@@ -39,14 +39,14 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Features<span class="caret"></span></a>
               <ul class="dropdown-menu dropdown-position" role="menu">
                 <li><a href="features.html" class="text-uppercase">Features</a></li>
-                <li><a href="features.html" class="text-uppercase">Fast</a></li>
-                <li><a href="features.html" class="text-uppercase">OpenSource</a></li>
-                <li><a href="features.html" class="text-uppercase">API</a></li>
-                <li><a href="features.html" class="text-uppercase">Customizable</a></li>
-                <li><a href="features.html" class="text-uppercase">Scalable</a></li>
-                <li><a href="features.html" class="text-uppercase">Secure</a></li>
-                <li><a href="features.html" class="text-uppercase">Modular</a></li>
-                <li><a href="features.html" class="text-uppercase">Stable</a></li>
+                <li><a href="features.html#fast" class="text-uppercase scroll">Fast</a></li>
+                <li><a href="features.html#opensource" class="text-uppercase scroll">OpenSource</a></li>
+                <li><a href="features.html#api" class="text-uppercase scroll">API</a></li>
+                <li><a href="features.html#custom" class="text-uppercase scroll">Customizable</a></li>
+                <li><a href="features.html#scale" class="text-uppercase scroll">Scalable</a></li>
+                <li><a href="features.html#secure" class="text-uppercase scroll">Secure</a></li>
+                <li><a href="features.html#modular" class="text-uppercase scroll">Modular</a></li>
+                <li><a href="features.html#stable" class="text-uppercase scroll">Stable</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -165,7 +165,13 @@
 {% block script_tags %}
 <script src="{{ STATIC }}bower_components/jquery/dist/jquery.min.js"></script>
 <script src="{{ STATIC }}bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
+<script>
+$(document).ready(function(){
+  $(".scroll").click(function(){
+    $("html,body").animate({scrollTop:$(this.hash).offset().top-105},2000);
+  });
+});
+</script>
 {% endblock script_tags %}
 </body>
 </html>
