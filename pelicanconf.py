@@ -10,6 +10,17 @@ PATH = 'content'
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['articles']
 
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['i18n_subsites', ]
+
+# Internationalization
+JINJA_EXTENSIONS = ['jinja2.ext.i18n',]
+I18N_GETTEXT_LOCALEDIR = 'i18n/'
+I18N_GETTEXT_DOMAIN = 'messages'
+I18N_SUBSITES = {
+    'fr': {}
+}
+
 
 TIMEZONE = 'Europe/Paris'
 
@@ -42,5 +53,5 @@ DEFAULT_PAGINATION = 10
 THEME = 'theme'
 
 TEMPLATE_PAGES = {
-    #'features.html': 'features.html',
+    'features.html': 'features.html',
 }

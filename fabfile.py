@@ -5,6 +5,8 @@ import sys
 import SimpleHTTPServer
 import SocketServer
 
+from pelicanconf import I18N_GETTEXT_LOCALEDIR, I18N_GETTEXT_DOMAIN
+
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
@@ -17,6 +19,65 @@ dest_path = '/var/www'
 env.cloudfiles_username = 'my_rackspace_username'
 env.cloudfiles_api_key = 'my_rackspace_api_key'
 env.cloudfiles_container = 'my_cloudfiles_container'
+
+
+def i18n_extract():
+    """
+    Extract translatable strings
+    """
+    local(
+        'pybabel extract '
+        '--mapping babel.cfg '
+        '--output %s/messages.pot ./' % (I18N_GETTEXT_LOCALEDIR, )
+    )
+
+
+def i18n_init(lang):
+    """
+    Initialize for a new language
+    """
+    local(
+        'pybabel init '
+        '--input-file %s/messages.pot '
+        '--output-dir %s '
+        '--locale %s '
+        '--domain %s ' % (
+            I18N_GETTEXT_LOCALEDIR,
+            I18N_GETTEXT_LOCALEDIR,
+            lang,
+            I18N_GETTEXT_DOMAIN,
+        )
+    )
+
+
+def i18n_compile():
+    """
+    Compile all translations
+    """
+    local(
+        'pybabel compile '
+        '--directory %s '
+        '--domain %s ' % (
+            I18N_GETTEXT_LOCALEDIR,
+            I18N_GETTEXT_DOMAIN,
+        )
+    )
+
+
+def i18n_update_catalog():
+    """
+    Update catalog when messages change
+    """
+    local(
+        'pybabel update '
+        '--input-file %s/messages.pot '
+        '--output-dir %s '
+        '--domain %s ' % (
+            I18N_GETTEXT_LOCALEDIR,
+            I18N_GETTEXT_LOCALEDIR,
+            I18N_GETTEXT_DOMAIN,
+        )
+    )
 
 
 def clean():
