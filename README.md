@@ -27,6 +27,11 @@ fab build
 fab serve
 ```
 
+Your terminal should now say `Serving on port 8000 ...`
+
+Open [localhost:8000](http://localhost:8000) and you should 
+be able to see the tryton website on your browser.
+
 ## Template Pages and Articles
 
 The two main content types through the website are pages
