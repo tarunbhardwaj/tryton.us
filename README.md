@@ -32,6 +32,25 @@ Your terminal should now say `Serving on port 8000 ...`
 Open [localhost:8000](http://localhost:8000) and you should 
 be able to see the tryton website on your browser.
 
+You should now be able to see the content but the page will
+look broken to you if this is the first time you are running
+`fab build`. This is because the CSS and JS assets are not
+bundled with the repo, but have to be installed using 
+[bower](http://bower.io/) (`pip` equivalent in the web
+development world). 
+
+```bash
+
+# From the root of the folder
+bower install
+
+# To update the dependencies
+bower update
+```
+
+*You must have [bower installed](http://bower.io/#install-bower)
+for the above command to work.*
+
 ## Template Pages and Articles
 
 The two main content types through the website are pages
