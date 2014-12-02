@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% block title %} Order Management App | {{ super() }} {% endblock title %}
+{% block main %}
+<section class="app-banner">
+  <div class="container">
+    <ol class="breadcrumb remove_background">
+      <li><a class="white-text-color" href="/">Home</a></li>
+      <li> <a class="white-text-color" href="app.html">App</a></li>
+      <li class="white-text-color">Order Fulfillment</li>
+    </ol>
+    <div class="mar-top-150"></div>
+    <div class="text-center">
+      <h1 class="white-text-color"><strong>ORDER FULFILLMENT</strong>
+      </h1>
+      <div class="col-sm-12 col-xs-12" >
+        <div class="col-sm-2 col-xs-4 col-xs-offset-4 col-sm-offset-5 app-banner-divider">
+        </div>
+      </div>
+      <div>
+        <p class="white-text-color">Error free fulfilment of orders, faster processing and efficient return management with Tryton order fulfillment app.  The Order fulfillment app maintains extensive customer information, defines pricing and tax information, generates sales orders, manages picking, issuing, packing and shipping operations, and checks credit.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="mar_top5 clearfix"></div>
+<div class="container">
+  <section>
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-12 mar_top5">
+        <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+          <img src="{{ STATIC }}images/app/purchase/purchase-03.png" height="200" alt="ecommerce" class="content-center-xs">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <h2>Reduced Processing Errors</h2>
+          <p>Never go wrong with placing any order by eliminating 99% of the processing errors so that you don’t have to bear with expensive return shipments and bad customer experience.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="mar_top3 clearfix"></div>
+  </section>
+  <div class="divider-line clearfix"></div>
+  <section>
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-sm-push-6 text-center">
+          <img src="{{ STATIC }}images/app/ecommerce/ecommerce-03.png" height="200" alt="ecommerce" class="content-center-xs">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6">
+          <h2>Integrated shipping</h2>
+          <p>Shipping forms a major part of your order fulfillment process. You can integrate shipping providers, like Fedex, UPS, USPS and many more with the Tryton ERP system and print accurate labels, thus delivering the right product without any hiccups.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="mar_top3 clearfix"></div>
+  </section>
+  <div class="divider-line clearfix"></div>
+  <section>
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="col-xs-12 col-sm-6 col-md-6 text-center">
+          <img src="{{ STATIC }}images/app/account/accounting-04.png" height="200" alt="fast" class=" content-center-xs">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <h2>Billing made Easy</h2>
+          <p>The order fulfillment app provides instant access to online, up to date customer billing information. It also includes the ability to print at time of entry, duplicate printing, minimum invoice amount surcharge, standing and repetitive invoices and an audit trail of changes.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="mar_top3 clearfix"></div>
+  </section>
+  <div class="divider-line clearfix"></div>
+  <section>
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-sm-push-6 text-center">
+          <img src="{{ STATIC }}images/app/orders/orders-04.png" height="200" alt="custom" class="content-center-xs">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6">
+          <h2>Happy Customers</h2>
+          <p>How annoyed would your customer be if you shipped a PlayStation title instead of the ordered Xbox title? You will never have to find out as Tryton handles the process efficiently with zero errors. With the absence of manual errors, the ERP guarantees an organised approach towards the fulfillment of the order of your customer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="mar_top3 clearfix"></div>
+  </section>
+  <div class="mar_top5 clearfix"></div>
+</div>
+{% endblock main %}
