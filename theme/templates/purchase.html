@@ -1,23 +1,23 @@
 {% extends 'base.html' %}
-{% block title %} Purchase Management App | {{ super() }} {% endblock title %}
+{% block title %} {% trans %}Purchase Management App{% endtrans %} | {{ super() }} {% endblock title %}
 {% block main %}
 <section class="app-banner">
   <div class="container">
     <ol class="breadcrumb remove_background">
-      <li><a class="white-text-color" href="/">Home</a></li>
-      <li> <a class="white-text-color" href="app.html">App</a></li>
-      <li class="white-text-color">Purchasing</li>
+      <li><a class="white-text-color" href="/">{% trans %}Home{% endtrans %}</a></li>
+      <li> <a class="white-text-color" href="app.html">{% trans %}App{% endtrans %}</a></li>
+      <li class="white-text-color">{% trans %}Purchasing{% endtrans %}</li>
     </ol>
     <div class="mar-top-150"></div>
     <div class="text-center">
-      <h1 class="white-text-color"><strong>PURCHASING</strong>
+      <h1 class="white-text-color"><strong>{% trans %}PURCHASING{% endtrans %}</strong>
       </h1>
       <div class="col-sm-12 col-xs-12" >
         <div class="col-sm-2 col-xs-4 col-xs-offset-4 col-sm-offset-5 app-banner-divider">
         </div>
       </div>
       <div>
-        <p class="white-text-color">Purchasing is arguably the most important aspect in many businesses. Purchasing affects the cost of production, can halt production, tie up capital, increase liabilities and decrease the bottom line if not managed effectively. Tryton features an integrated purchasing management app for improve efficiency and lower costs.
+        <p class="white-text-color">{% trans %}Purchasing is arguably the most important aspect in many businesses. Purchasing affects the cost of production, can halt production, tie up capital, increase liabilities and decrease the bottom line if not managed effectively. Tryton features an integrated purchasing management app for improve efficiency and lower costs.{% endtrans %}
         </p>
       </div>
     </div>
@@ -32,8 +32,8 @@
           <img src="{{ STATIC }}images/app/purchase/purchase-01.png" height="200" alt="ecommerce" class="content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <h2>Streamlines procurement</h2>
-          <p>The Purchase management app lets you streamlines procurement of required raw materials, packaging material, sub assembly and other non-inventory materials. This saves you from overspending money and helps in managing your goods efficiently.
+          <h2>{% trans %}Streamlines procurement{% endtrans %}</h2>
+          <p>{% trans %}The Purchase management app lets you streamlines procurement of required raw materials, packaging material, sub assembly and other non-inventory materials. This saves you from overspending money and helps in managing your goods efficiently.{% endtrans %}
           </p>
         </div>
       </div>
@@ -48,8 +48,8 @@
           <img src="{{ STATIC }}images/app/purchase/purchase-02.png" height="200" alt="ecommerce" class="content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6">
-          <h2>Vendor/Supplier Management</h2>
-          <p>Why deal with all the suppliers with manual effort when Tryton’s purchase app automates the process of identifying potential suppliers, Supplier Evaluation, Supplier Quote Evaluation, awarding purchase order to the supplier, and billing processes.
+          <h2>{% trans %}Vendor/Supplier Management{% endtrans %}</h2>
+          <p>{% trans %}Why deal with all the suppliers with manual effort when Tryton’s purchase app automates the process of identifying potential suppliers, Supplier Evaluation, Supplier Quote Evaluation, awarding purchase order to the supplier, and billing processes.{% endtrans %}
           </p>
         </div>
       </div>
@@ -64,8 +64,8 @@
           <img src="{{ STATIC }}images/app/purchase/purchase-03.png" height="200" alt="fast" class=" content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <h2>Improve accuracy and reduce errors</h2>
-          <p>When you update purchase orders and invoices, Tryton automatically updates accounting and inventory with supplier details. This saves a lot of time and minimizes the risk of mistakes or manual errors. You can discuss stock levels and orders with your customers and suppliers with confidence and complete clarity.
+          <h2>{% trans %}Improve accuracy and reduce errors{% endtrans %}</h2>
+          <p>{% trans %}When you update purchase orders and invoices, Tryton automatically updates accounting and inventory with supplier details. This saves a lot of time and minimizes the risk of mistakes or manual errors. You can discuss stock levels and orders with your customers and suppliers with confidence and complete clarity.{% endtrans %}
           </p>
         </div>
       </div>
@@ -80,8 +80,8 @@
           <img src="{{ STATIC }}images/app/purchase/purchase-04.png" height="200" alt="custom" class="content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6">
-          <h2>Sustained flow of Materials and Services</h2>
-          <p>With a properly aligned purchasing system, you enjoy uninterrupted flow of raw materials, goods, products and services for your business while keeping a check that the money is spent wisely. The gross profit of any business depends not only on the profit made but also on the money saved while doing purchases as the famous saying goes, " A penny saved is a penny earned. "
+          <h2>{% trans %}Sustained flow of Materials and Services{% endtrans %}</h2>
+          <p>{% trans %}With a properly aligned purchasing system, you enjoy uninterrupted flow of raw materials, goods, products and services for your business while keeping a check that the money is spent wisely. The gross profit of any business depends not only on the profit made but also on the money saved while doing purchases as the famous saying goes, " A penny saved is a penny earned. "{% endtrans %}
           </p>
         </div>
       </div>
