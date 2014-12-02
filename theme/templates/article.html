@@ -3,10 +3,10 @@
 {% block main %}
 <section class="blog-heading">
   <div class="container">
-    <h1 class="white-text-color margin-0">Blog</h1>
+    <h1 class="white-text-color margin-0">{% trans %}Blog{% endtrans %}</h1>
     <ol class="breadcrumb remove_background padding-0 margin-0">
-      <li><a class="white-text-color" href="/">Home</a></li>
-      <li class="white-text-color"><a class="white-text-color" href="blogs.html">Blog</a></li>
+      <li><a class="white-text-color" href="/">{% trans %}Home{% endtrans %}</a></li>
+      <li class="white-text-color"><a class="white-text-color" href="blogs.html">{% trans %}Blog{% endtrans %}</a></li>
       <li class="white-text-color">{{ article.title }}</li>
     </ol>
   </div>
@@ -31,7 +31,7 @@
                   </tr>
                   <tr>
                     <td class="blog-time">
-                      {{ article.date|strftime('%d') }}
+                     {{ article.date|strftime('%d') }}
                     </td>
                   </tr>
                 </table>
