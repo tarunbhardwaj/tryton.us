@@ -9,7 +9,7 @@
   <!-- Package CSS -->  
   <link href="{{ STATIC }}bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ STATIC }}bower_components/font-awesome/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="{{ STATIC }}bower_components/nanoscroller/bin/css/nanoscroller.css">
   <!-- Custom CSS -->
   <link href="{{ STATIC }}css/style.css" rel="stylesheet">
   <link href="{{ STATIC }}css/responsive-layouts.css" rel="stylesheet">
@@ -175,16 +175,21 @@
 
 {% endblock footer %}
 
-{% block script_tags %}
-<script src="{{ STATIC }}bower_components/jquery/dist/jquery.min.js"></script>
-<script src="{{ STATIC }}bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+{% block script_imports %}
+  <script src="{{ STATIC }}bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="{{ STATIC }}bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="{{ STATIC }}bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.js"></script>
+{% endblock script_imports %}
+
+{% block scripts %}
 <script>
-$(document).ready(function(){
-  $(".scroll").click(function(){
-    $("html,body").animate({scrollTop:$(this.hash).offset().top-105},2000);
+  $(document).ready(function(){
+    $(".nano").nanoScroller();
+    $(".scroll").click(function(){
+      $("html,body").animate({scrollTop:$(this.hash).offset().top-105},2000);
+    });
   });
-});
 </script>
-{% endblock script_tags %}
+{% endblock scripts %}
 </body>
 </html>
