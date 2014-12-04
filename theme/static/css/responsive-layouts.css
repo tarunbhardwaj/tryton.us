@@ -34,11 +34,22 @@
   .footer-set-height{
     min-height: inherit;
   }
+  .border-left-right{
+    border-left: 0px;
+    border-right: 0px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .text-center-sm{
     text-align: center;
+  }
+  .no-wrap{
+    white-space: nowrap;
+  }
+  .border-left-right{
+    border-left: 0px;
+    border-right: 0px;
   }
 
 }
