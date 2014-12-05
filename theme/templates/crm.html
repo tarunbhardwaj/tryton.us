@@ -1,23 +1,23 @@
 {% extends 'base.html' %}
-{% block title %} CRM App | {{ super() }} {% endblock title %}
+{% block title %} {% trans %}CRM App{% endtrans %} | {{ super() }} {% endblock title %}
 {% block main %}
 <section class="app-banner">
   <div class="container">
     <ol class="breadcrumb remove_background">
-      <li><a class="white-text-color" href="/">Home</a></li>
-      <li> <a class="white-text-color" href="app.html">App</a></li>
-      <li class="white-text-color">CRM</li>
+      <li><a class="white-text-color" href="/">{% trans %}Home{% endtrans %}</a></li>
+      <li> <a class="white-text-color" href="app.html">{% trans %}App{% endtrans %}</a></li>
+      <li class="white-text-color">{% trans %}CRM{% endtrans %}</li>
     </ol>
     <div class="mar-top-150"></div>
     <div class="text-center">
-      <h1 class="white-text-color"><strong>CUSTOMER RELATIONSHIP MANAGEMENT</strong>
+      <h1 class="white-text-color"><strong>{% trans %}CUSTOMER RELATIONSHIP MANAGEMENT{% endtrans %}</strong>
       </h1>
       <div class="col-sm-12 col-xs-12" >
         <div class="col-sm-2 col-xs-4 col-xs-offset-4 col-sm-offset-5 app-banner-divider">
         </div>
       </div>
       <div>
-        <p class="white-text-color">Tryton’s CRM is designed to improve lead generation and keep your customer relationships on track. The minimalistic CRM application tracks contacts, activities and opportunities.
+        <p class="white-text-color">{% trans %}Tryton’s CRM is designed to improve lead generation and keep your customer relationships on track. The minimalistic CRM application tracks contacts, activities and opportunities.{% endtrans %}
         </p>
       </div>
     </div>
@@ -32,8 +32,8 @@
           <img src="{{ STATIC }}images/app/crm/crm-01.png" height="200" alt="ecommerce" class="content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <h2>Infinite Customer and Contact Accounts</h2>
-          <p>How can you serve your customer well when you don’t know about the customer? CRM app provides you with the customer business data that helps you to understand your customer much better, know what the customer products are and what the customer needs. Manage infinite customer and contact accounts.
+          <h2>{% trans %}Infinite Customer and Contact Accounts{% endtrans %}</h2>
+          <p>{% trans %}How can you serve your customer well when you don’t know about the customer? CRM app provides you with the customer business data that helps you to understand your customer much better, know what the customer products are and what the customer needs. Manage infinite customer and contact accounts.{% endtrans %}
           </p>
         </div>
       </div>
@@ -48,8 +48,8 @@
           <img src="{{ STATIC }}images/app/crm/crm-02.png" height="200" alt="ecommerce" class="content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6">
-          <h2>Manage Credit Limit</h2>
-          <p>Tryton CRM tracks sales associated with an individual customer and monitors financial information, such as payment history and credit limits. With the CRM app, any company can thoroughly manage prospects and build tight-nit customer relationships during their business.
+          <h2>{% trans %}Manage Credit Limit{% endtrans %}</h2>
+          <p>{% trans %}Tryton CRM tracks sales associated with an individual customer and monitors financial information, such as payment history and credit limits. With the CRM app, any company can thoroughly manage prospects and build tight-nit customer relationships during their business.{% endtrans %}
           </p>
         </div>
       </div>
@@ -64,8 +64,8 @@
           <img src="{{ STATIC }}images/app/crm/crm-03.png" height="200" alt="fast" class=" content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <h2>Convert leads into Opportunities</h2>
-          <p>CRM app helps you to track the status of every lead so that you don’t have to remember who’s who of every lead. By being active and pro-active with the help of CRM, it’s extremely easy to concentrate more on business strategies and successfully convert lead into opportunities and expand your business.
+          <h2>{% trans %}Convert leads into Opportunities{% endtrans %}</h2>
+          <p>{% trans %}CRM app helps you to track the status of every lead so that you don’t have to remember who’s who of every lead. By being active and pro-active with the help of CRM, it’s extremely easy to concentrate more on business strategies and successfully convert lead into opportunities and expand your business.{% endtrans %}
           </p>
         </div>
       </div>
@@ -80,8 +80,8 @@
           <img src="{{ STATIC }}images/app/crm/crm-04.png" height="200" alt="custom" class="content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6">
-          <h2>All Customer Transactions are Linked</h2>
-          <p>With Tryton CRM app, you can now view all customer transactions in one place and respond confidently to customer about every inquiry you received.</p>
+          <h2>{% trans %}All Customer Transactions are Linked{% endtrans %}</h2>
+          <p>{% trans %}With Tryton CRM app, you can now view all customer transactions in one place and respond confidently to customer about every inquiry you received.{% endtrans %}</p>
         </div>
       </div>
     </div>
