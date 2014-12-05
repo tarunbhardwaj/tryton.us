@@ -1,23 +1,23 @@
 {% extends 'base.html' %}
-{% block title %} Accounting App | {{ super() }} {% endblock title %}
+{% block title %} {% trans %}Accounting App{% endtrans %} | {{ super() }} {% endblock title %}
 {% block main %}
 <section class="app-banner">
   <div class="container">
     <ol class="breadcrumb remove_background">
-      <li><a class="white-text-color" href="/">Home</a></li>
-      <li> <a class="white-text-color" href="app.html">App</a></li>
-      <li class="white-text-color">Account</li>
+      <li><a class="white-text-color" href="/">{% trans %}Home{% endtrans %}</a></li>
+      <li> <a class="white-text-color" href="app.html">{% trans %}App{% endtrans %}</a></li>
+      <li class="white-text-color">{% trans %}Account{% endtrans %}</li>
     </ol>
     <div class="mar-top-150"></div>
     <div class="text-center">
-      <h1 class="white-text-color"><strong>ACCOUNTING</strong>
+      <h1 class="white-text-color"><strong>{% trans %}ACCOUNTING{% endtrans %}</strong>
       </h1>
       <div class="col-sm-12 col-xs-12" >
         <div class="col-sm-2 col-xs-4 col-xs-offset-4 col-sm-offset-5 app-banner-divider">
         </div>
       </div>
       <div>
-        <p class="white-text-color">With Accounting app, Tryton gives you a complete view of your business revenues. The simple user interface of the Accounting app allows you to maintain your company books and do all company/ business/ financial accounting at one place, quick and easy. You don’t need to be an accountant to use it. It’s that simple!
+        <p class="white-text-color">{% trans %}With Accounting app, Tryton gives you a complete view of your business revenues. The simple user interface of the Accounting app allows you to maintain your company books and do all company/ business/ financial accounting at one place, quick and easy. You don’t need to be an accountant to use it. It’s that simple!{% endtrans %}
         </p>
       </div>
     </div>
@@ -32,8 +32,8 @@
           <img src="{{ STATIC }}images/app/account/accounting-01.png" height="200" alt="ecommerce" class="content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <h2>Simplified Accounting</h2>
-          <p>Accounting will never be intimidating again. The app makes the complex world of numbers simple and presents it in a easy-to-do format. There will be no delay in the payments and you can generate invoices based on purchase and sales orders. Suddenly, you spend less time on accounting and more time on your business.
+          <h2>{% trans %}Simplified Accounting{% endtrans %}</h2>
+          <p>{% trans %}Accounting will never be intimidating again. The app makes the complex world of numbers simple and presents it in a easy-to-do format. There will be no delay in the payments and you can generate invoices based on purchase and sales orders. Suddenly, you spend less time on accounting and more time on your business.{% endtrans %}
           </p>
         </div>
       </div>
@@ -48,8 +48,8 @@
           <img src="{{ STATIC }}images/app/account/accounting-02.png" height="200" alt="ecommerce" class="content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6">
-          <h2>Manage all your accounts at one place!</h2>
-          <p>The app will assist in recording day to day transactions like receiving payments from customers, payments to vendors by raising cheques or through cash and journal entries. Over and above financial module records the data during; Creation of a Customer Account, Vendor Account, Bank Account or General Ledger account.
+          <h2>{% trans %}Manage all your accounts at one place!{% endtrans %}</h2>
+          <p>{% trans %}The app will assist in recording day to day transactions like receiving payments from customers, payments to vendors by raising cheques or through cash and journal entries. Over and above financial module records the data during; Creation of a Customer Account, Vendor Account, Bank Account or General Ledger account.{% endtrans %}
           </p>
         </div>
       </div>
@@ -64,8 +64,8 @@
           <img src="{{ STATIC }}images/app/account/accounting-03.png" height="200" alt="fast" class=" content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <h2>Take Intelligent Decisions</h2>
-          <p>Accounting app will take care of all accounts related entries and their impact on the whole system. How the finance comes and how it is been utilised, Total flow of money and total expenditures, everything will be shown here.</p>
+          <h2>{% trans %}Take Intelligent Decisions{% endtrans %}</h2>
+          <p>{% trans %}Accounting app will take care of all accounts related entries and their impact on the whole system. How the finance comes and how it is been utilised, Total flow of money and total expenditures, everything will be shown here.{% endtrans %}</p>
         </div>
       </div>
     </div>
@@ -79,8 +79,8 @@
           <img src="{{ STATIC }}images/app/account/accounting-04.png" height="200" alt="custom" class="content-center-xs">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6">
-          <h2>Generate Reports</h2>
-          <p>Reports generated through the Accounting app help you to take informed purchasing decisions based on complete order history analysis. You have accurate information at your fingertips to monitor outbound delivery confirmation.</p>
+          <h2>{% trans %}Generate Reports{% endtrans %}</h2>
+          <p>{% trans %}Reports generated through the Accounting app help you to take informed purchasing decisions based on complete order history analysis. You have accurate information at your fingertips to monitor outbound delivery confirmation.{% endtrans %}</p>
         </div>
       </div>
     </div>
