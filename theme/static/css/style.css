@@ -7,6 +7,7 @@ body {
 a:hover {
   text-decoration: none;
 }
+
 .logo {
   display: block;
   max-width: 168px;
@@ -14,6 +15,30 @@ a:hover {
   margin-top: 18px;
   background: url(../images/logo.png) no-repeat;
   min-width: 113px;
+}
+
+.tryton-conf-banner {
+  background:linear-gradient(to top, rgba(0, 0, 0, .5), 
+    rgba(0, 0, 0, 0)), 
+  url(../images/banner/tryton-conf.jpg) no-repeat;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+.business-banner {
+  background:linear-gradient(to top, rgba(0, 0, 0, .5), 
+    rgba(0, 0, 0, 0)), 
+  url(../images/banner/complete-business.jpg) no-repeat;
+  
+}
+
+.all-in-one-banner {
+  background:linear-gradient(to top, rgba(0, 0, 0, .5), 
+    rgba(0, 0, 0, 0)),
+  url(../images/banner/all-in-one.jpg) no-repeat;
 }
 
 .nav-resize {
@@ -89,12 +114,9 @@ a:hover {
   font-size: 33px;
 }
 
-.characteristics .rounded-icon .glyphicon {
-  top:4px;
-}
-
-.pad-all20{
-  padding: 20px;
+.border-left-right {
+  border-left: 1px solid #ddd;
+  border-right:1px solid #ddd;
 }
 
 .mar_top2 {
@@ -125,6 +147,7 @@ a:hover {
   margin-top: 150px;
 }
 
+
 .mar_bottom3 {
   margin-bottom: 30px;
 }
@@ -137,13 +160,17 @@ a:hover {
   margin: 0;
 }
 
+.pad-all20 {
+  padding: 20px;
+}
+
 /* characteristics css ends */
 
 /* app css starts */
 
-
 .app img {
   margin: auto;
+  width: 100%;
 }
 
 .app .info {
@@ -152,32 +179,18 @@ a:hover {
 
 /* app section css ends */
 
-/*use-reason section css start */
+/* history section css start */
 
-.use-reason {
-  background: #f6f6f6;
-  width: 100%;
+.history {
+  background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/tryton-community.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+
 }
 
-.use-reason .use-reason_heding {
-  background: #f6f6f6;
-  width: 100%;
-  margin-top: 28px;
-  color: #8a8a8a;
-}
-
-
-.use-reason ul li {
-  padding: 7px 0;
-  margin: 0;
-  color: #3d3d48;
-}
-
-.use-reason ul li i {
-  color: #0a70e3;
-  margin-right: 18px;
-}
-/* use-reason section css ends */
+/* history section css ends */
 /* users section css starts */
 
 .gna_img_reposition {
@@ -187,6 +200,7 @@ a:hover {
 .know-more {
   background: #0a70e3;
   width: 100%;
+  padding: 10px 0;
 }
 
 .know-more button {
@@ -253,7 +267,7 @@ a:hover {
 
 /* app.html css starts */
 
-.app-banner{
+.app-banner {
   min-height: 580px;
   background:url(../images/app/temp-bg.jpg) no-repeat;
   background-size: cover;
@@ -262,17 +276,17 @@ a:hover {
   padding: 28px 0;
 }
 
-.banner-heading{
+.banner-heading {
   font-size:40px;
 }
 
-.app-banner-divider{
+.app-banner-divider {
   border-top: 2px solid #fff;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.app-banner p{
+.app-banner p {
   font-size: 20px;
   line-height: 25px;
 }
@@ -285,6 +299,34 @@ a:hover {
 .remove_background{
   background-color:transparent; 
 }
+
+.app:hover img {
+  opacity: 0.1;
+  transition: all 200ms ease-in;
+} 
+
+.app:hover a {
+ /*csslint important:false */
+ display: block !important;
+} 
+
+.app:hover h4 {
+  color:#0a70e3;
+}
+
+.info h4 {
+  color: #3d3d48;
+}
+
+.app .info {
+  transition: all 250ms ease-out;
+}
+
+.app:hover .info {
+  transform:translateY(-116px);
+  transition: all 250ms ease-in;
+}
+
 
 /*app css end */
 
@@ -382,4 +424,8 @@ a:hover {
 
 .divider-blue {
   border-bottom: 2px solid #2283bc;
+}
+
+.company-slider {
+  min-height: 240px;
 }
