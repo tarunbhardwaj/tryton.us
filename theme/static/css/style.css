@@ -93,6 +93,10 @@ a:hover {
   top:4px;
 }
 
+.pad-all20{
+  padding: 20px;
+}
+
 .mar_top2 {
   margin-top: 20px;
 }
