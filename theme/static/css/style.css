@@ -57,7 +57,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-.navbar-right .dropdown-position{
+.navbar-right .dropdown-position {
   top: 69px;
   right:0;
   left:0;
@@ -143,7 +143,7 @@ a:hover {
   margin-top: 70px;
 }
 
-.mar-top-150{
+.mar-top-150 {
   margin-top: 150px;
 }
 
@@ -156,7 +156,7 @@ a:hover {
   padding: 0;
 }
 
-.margin-0{
+.margin-0 {
   margin: 0;
 }
 
@@ -176,7 +176,10 @@ a:hover {
 .app .info {
   margin-top: 25px;
 }
-
+ 
+.map-container {
+  height:256px;
+ }
 /* app section css ends */
 
 /* history section css start */
@@ -242,7 +245,7 @@ a:hover {
   color: #999;
 }
 
-.footer-set-height{
+.footer-set-height {
   min-height: 316px;
 }
 
@@ -261,7 +264,7 @@ a:hover {
   color:#fff;
 }
 
-.carousel-control.carousel-color-none{
+.carousel-control.carousel-color-none {
   background-image: none;
 }
 
@@ -291,12 +294,12 @@ a:hover {
   line-height: 25px;
 }
 
-.app-detail h4{
+.app-detail h4 {
   color:#2283bc;
   font-size: 22px;
 }
 
-.remove_background{
+.remove_background {
   background-color:transparent; 
 }
 
@@ -341,18 +344,18 @@ a:hover {
   width: 100%;
 }
 
-.img-frame{
+.img-frame {
   border:7px solid #fff;
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
 
-.blog-date{
+.blog-date {
   background-color:#FFFFFF; 
   margin-right: 15px;
 }
 
-.blog-month{
+.blog-month {
   background-color:#2C9AB7; 
   color:#fff;
   font-size:12px;
@@ -361,7 +364,7 @@ a:hover {
   text-align:center;
 }
 
-.blog-time{
+.blog-time {
   color:#2C9AB7;
   font-size:28px;
   font-weight:bold; 
@@ -374,24 +377,24 @@ a:hover {
   background: -moz-linear-gradient(top, #fcfcfc 0%, #dad8d8 100%);
 }
 
-.post-by{
+.post-by {
   background:url(../images/article/icon-by-user.png) no-repeat 0 5px;
   padding: 0 0 0 18px;
 }
 
-.post-event{
+.post-event {
   background:url(../images/article/icon-category.png) no-repeat 9px 5px;
   padding: 0 0 0 26px;
 }
 
-#search-submit{
+#search-submit {
   background:#0a70e3 url(../images/article/site-search-icon.png) no-repeat center;
   height: 34px;
   width: 39px;
   border:none;
 }
 
-.input-radius{
+.input-radius {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border-top-right-radius: 0px;
@@ -400,26 +403,27 @@ a:hover {
 
 /* foundation.html css starts */
 
-.smallmap{
-  height:256px;
-  width:100%;
-}
-
-.divider-line{
+.divider-line {
  margin: 35px 0px 50px 0px;
  border-bottom: 1px solid #ddd;
 }
 
-.img-height{
+.img-height {
   height: 200px;
 }
 
-.line_height{
+.line_height {
   line-height: 35px;
 }
 
-.tryton-companies:hover {
+.tryton-companies {
   box-shadow: 0 0 10px rgba(0,0,0,.2);
+  padding: 15px;
+  height: 453px;
+}
+
+.tryton-companies:hover {
+  box-shadow: 0 0 10px #0066CC;
 }
 
 .divider-blue {
@@ -429,3 +433,24 @@ a:hover {
 .company-slider {
   min-height: 240px;
 }
+
+.nano { 
+  height: 123px; 
+}
+.nano .nano-content { 
+  padding: 10px; 
+}
+.nano .nano-pane   { 
+  background: #888;
+}
+.nano .nano-slider { 
+  background: #111;
+}
+
+.tryton-companies .content {
+  height: 50%
+}  
+
+.tryton-companies .address {
+  height: 39%
+}    
