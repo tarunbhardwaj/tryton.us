@@ -1,0 +1,19 @@
+machine:
+  node:
+    version: 0.11.13
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init      
+dependencies:
+  post:
+    - npm install -g gulp gulp-csslint bower
+  override:
+    - pip install -r requirements.txt
+test:
+  override:
+    - gulp
+    - fab build
+general:
+  artifacts:
+    - "output/"
