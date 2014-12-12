@@ -81,15 +81,20 @@ a:hover {
 
 /* basic_info css starts */
 
-.basic_info {
-  background: #f6f6f6;
+.section-space {
+  padding: 60px 0;
+  letter-spacing: .5px;
 }
 
+.section-space p {
+  margin-top: 10px;
+}
 /* basicinfo css ends */
 
 
 /* characteristics css starts */
-.characteristics .characteristics_heading {
+
+.characteristics-heading {
   color: #3398d4;
   font-size: 18px;
   font-weight: bold;
@@ -108,7 +113,12 @@ a:hover {
   margin-right: 20px;
   font-size: 29px;
 }
-.characteristics .rounded-icon i {
+
+.tab-heading {
+  display: inline-block;
+}
+
+.rounded-icon i {
   top: 3px;
   position: relative;
   font-size: 33px;
@@ -119,38 +129,6 @@ a:hover {
   border-right:1px solid #ddd;
 }
 
-.mar_top2 {
-  margin-top: 20px;
-}
-
-.mar_top3 {
-  margin-top: 30px;
-}
-
-.mar_top4 {
-  margin-top: 40px;
-}
-
-.mar_top5 {
-  margin-top: 50px;
-}
-
-.mar_top6 {
-  margin-top: 60px;
-}
-
-.mar_top7 {
-  margin-top: 70px;
-}
-
-.mar-top-150 {
-  margin-top: 150px;
-}
-
-
-.mar_bottom3 {
-  margin-bottom: 30px;
-}
 
 .padding-0 {
   padding: 0;
@@ -158,10 +136,6 @@ a:hover {
 
 .margin-0 {
   margin: 0;
-}
-
-.pad-all20 {
-  padding: 20px;
 }
 
 /* characteristics css ends */
@@ -192,21 +166,18 @@ a:hover {
 /* history section css ends */
 /* users section css starts */
 
-.gna_img_reposition {
-  line-height: 99px;
-}
 
 .know-more {
-  background: #0a70e3;
+  background: #2484BE;
   width: 100%;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .know-more button {
   margin-top: 32px;
 }
 
-.line_img {
+.line-img {
   background:url(../images/h-line.png) no-repeat left top;
   width: 6%;
   margin-right: 16px;
@@ -219,37 +190,28 @@ a:hover {
   color: #999;
 }
 
-.footer .footer_headings {
-  color: #fff;
-  font-weight: bold;
-}
-
-.footer .contact_address {
+.footer .contact-address {
   margin: 10px 0 0 0;
   width: 100%;
 }
 
-.footer .link_list li {
+.footer .link-list li {
   line-height: 30px;
-}
-
-.footer .link_list li :hover {
-  color: #fff;
-}
-
-.footer .link_list a {
-  color: #999;
 }
 
 .footer-set-height {
   min-height: 316px;
 }
 
+.footer li a:hover {
+  color:#fff;
+}
+
 .text-red {
   color: #e74c3c;
 }
 
-.content_licensed {
+.content-licensed {
   padding: 18px 0 18px 0;
   margin: 0;
   color: #999;
@@ -272,7 +234,7 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 
-  padding: 28px 0;
+  padding: 45px 0;
 }
 
 .banner-heading {
@@ -290,7 +252,12 @@ a:hover {
   line-height: 25px;
 }
 
-.remove_background {
+.app-detail h4 {
+  color:#2283bc;
+  font-size: 22px;
+}
+
+.remove-background {
   background-color:transparent; 
 }
 
@@ -371,7 +338,6 @@ a:hover {
 /* foundation.html css starts */
 
 .divider-line {
- margin: 35px 0px 50px 0px;
  border-bottom: 1px solid #ddd;
 }
 
@@ -379,7 +345,7 @@ a:hover {
   height: 200px;
 }
 
-.line_height {
+.line-height {
   line-height: 35px;
 }
 
@@ -401,6 +367,10 @@ a:hover {
   min-height: 240px;
 }
 
+.partner-desc {
+  margin-bottom: 20px;
+}
+
 .nano { 
   height: 123px; 
 }
@@ -415,9 +385,9 @@ a:hover {
 }
 
 .tryton-companies .content {
-  height: 50%
+  height: 50%;
 }  
 
 .tryton-companies .address {
-  height: 39%
+  height: 39%;
 }    
