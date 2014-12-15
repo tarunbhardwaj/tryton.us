@@ -178,48 +178,40 @@
       <strong>{% trans %}MANAGING YOUR BUSINESS{% endtrans %}</strong></h1>
       <div class="mar_top7"></div>
       <div class="col-md-3 col-sm-6 col-xs-12 app text-center">
-        <a href="inventory.html">
+        <a href="{{ SITE_ROOT }}inventory.html">
           <img src="{{ STATIC }}images/app/apps-inventory.png" class="clearfix mar_bottom3" alt="accounts_app" />
-          <div class="info">
-            <h4 class="text-center text-uppercase">{% trans %}Inventory Management{% endtrans %}</h4>
+            <h4 class="text-center text-uppercase text-muted">{% trans %}Inventory Management{% endtrans %}</h4>
             <h5 class="text-center text-muted">{% trans %}Manage and monitor your inventory levels{% endtrans %}</h5>
-            <div class="btn btn-default col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4 hide">{% trans %}View More{% endtrans %}</div>
-          </div>
+            <div class="btn btn-default col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">{% trans %}View More{% endtrans %}</div>
         </a>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 app text-center">
-       <a href="orders.html">
+       <a href="{{ SITE_ROOT }}orders.html">
         <img src="{{ STATIC }}images/app/apps-orders.png" class=" mar_bottom3" alt="contacts_app" />
-        <div class="info">
-          <h4 class="text-center text-uppercase">{% trans %}Order Fulfillment{% endtrans %}</h4>
-          <h5 class="text-center text-muted">{% trans %}Process you orders faster and efficiently{% endtrans %}</h5>
-          <div class="btn btn-default col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4 hide">{% trans %}View More{% endtrans %}</div>
-        </div>
+          <h4 class="text-center text-uppercase text-muted">{% trans %}Order Fulfillment{% endtrans %}</h4>
+          <h5 class="text-center text-muted">{% trans %}Process you orders<br> faster and efficiently{% endtrans %}</h5>
+          <div class="btn btn-default col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">{% trans %}View More{% endtrans %}</div>
       </a>
     </div>
     <div class="col-md-3 col-sm-6 col-xs-12 app text-center">
-      <a href="ecommerce.html">
+      <a href="{{ SITE_ROOT }}ecommerce.html">
         <img src="{{ STATIC }}images/apps-ecommerce.png" class=" mar_bottom3" alt="project_app" />
-        <div class="info">
-          <h4 class="text-center text-uppercase">{% trans %}eCommerce{% endtrans %}</h4>
-          <h5 class="text-center text-muted">{% trans %}Design your webstore with ease{% endtrans %}</h5>
-          <div class="btn btn-default col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4 hide">{% trans %}View More{% endtrans %}</div>
-        </div>
+          <h4 class="text-center text-uppercase text-muted">{% trans %}eCommerce{% endtrans %}</h4>
+          <h5 class="text-center text-muted">{% trans %}Design your webstore<br> with ease{% endtrans %}</h5>
+          <div class="btn btn-default col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">{% trans %}View More{% endtrans %}</div>
       </a>
     </div>
     <div class="col-md-3 col-sm-6 col-xs-12 app text-center">
-      <a href="accounts.html">
+      <a href="{{ SITE_ROOT }}accounts.html">
         <img src="{{ STATIC }}images/apps-accounts.png" class=" mar_bottom3" alt="crm_app"/>
-        <div class="info">
-          <h4 class="text-center text-uppercase">{% trans %}Accounting{% endtrans %}</h4>
+          <h4 class="text-center text-uppercase text-muted">{% trans %}Accounting{% endtrans %}</h4>
           <h5 class="text-center text-muted">{% trans %}Automates complex accounting processes{% endtrans %}</h5>
-          <div class="btn btn-default col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4 hide">{% trans %}View More{% endtrans %}</div>
-        </div>
+          <div class="btn btn-default col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">{% trans %}View More{% endtrans %}</div>
       </a>
     </div>
   </div>
   <div class="container text-center mar_top4 clearfix">
-    <a href="app.html" class="btn btn-primary">{% trans %}VIEW ALL APPS {% endtrans %}&nbsp; <i class="fa fa-cube"></i></a>
+    <a href="{{ SITE_ROOT }}app.html" class="btn btn-primary">{% trans %}VIEW ALL APPS {% endtrans %}&nbsp; <i class="fa fa-cube"></i></a>
   </div>
 </section>
 <div class="mar_top4 clearfix"></div>
