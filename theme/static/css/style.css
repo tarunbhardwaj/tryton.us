@@ -173,10 +173,6 @@ a:hover {
   width: 100%;
 }
 
-.app .info {
-  margin-top: 25px;
-}
- 
 .map-container {
   height:256px;
  }
@@ -294,42 +290,13 @@ a:hover {
   line-height: 25px;
 }
 
-.app-detail h4 {
-  color:#2283bc;
-  font-size: 22px;
-}
-
 .remove_background {
   background-color:transparent; 
 }
 
-.app:hover img {
-  opacity: 0.1;
-  transition: all 200ms ease-in;
-} 
-
-.app:hover a {
- /*csslint important:false */
- display: block !important;
-} 
-
 .app:hover h4 {
   color:#0a70e3;
 }
-
-.info h4 {
-  color: #3d3d48;
-}
-
-.app .info {
-  transition: all 250ms ease-out;
-}
-
-.app:hover .info {
-  transform:translateY(-116px);
-  transition: all 250ms ease-in;
-}
-
 
 /*app css end */
 
