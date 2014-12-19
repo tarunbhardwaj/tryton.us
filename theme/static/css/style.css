@@ -82,8 +82,8 @@ a:hover {
 /* basic_info css starts */
 
 .section-space {
-  padding: 60px 0;
-  letter-spacing: .5px;
+  padding: 75px 0;
+  
 }
 
 .section-space p {
@@ -96,7 +96,7 @@ a:hover {
 /* characteristics css starts */
 
 .characteristics-heading {
-  color: #3398d4;
+  color: #1ac6ff;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -105,7 +105,7 @@ a:hover {
 .rounded-icon {
   width: 56px;
   height: 56px;
-  background-color: #3398d4;
+  background-color: #1ac6ff;
   color: #fff;
   text-align: center;
   vertical-align: middle;
@@ -161,7 +161,21 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
+}
 
+.job-info { 
+background:linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/tryton-community.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.nav-pills > li.active > .selection-tab, 
+.nav-pills > li.active > .selection-tab:hover, 
+.nav-pills > li.active> .selection-tab:focus {
+  background-color: white;
+  color:black;
 }
 
 /* history section css ends */
@@ -169,7 +183,7 @@ a:hover {
 
 
 .know-more {
-  background: #2484BE;
+  background: #1ac6ff ;
   width: 100%;
   padding: 20px 0;
 }
@@ -362,10 +376,6 @@ a:hover {
 
 .divider-blue {
   border-bottom: 2px solid #2283bc;
-}
-
-.company-slider {
-  min-height: 240px;
 }
 
 .partner-desc {
