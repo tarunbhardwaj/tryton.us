@@ -1,7 +1,7 @@
 /* Navbar css starts */
 body { 
   padding-top: 70px;
-  color: #727272;
+  color: #1D1D1D;
 }
 
 a:hover {
@@ -88,6 +88,7 @@ a:hover {
 
 .section-space p {
   margin-top: 10px;
+  line-height: 22px;
 }
 /* basicinfo css ends */
 
