@@ -51,9 +51,9 @@
 </div>
 <section class="section-space">
   <div class="container">
-    <h1 class="text-center"><small>{% trans %}Stable, Secure and Scalable{% endtrans %}</small><br>
-      <strong class="text-uppercase">{% trans %}Open Source Business Solution{% endtrans %}</strong>
-    </h1>
+    <h2 class="text-center"><small>{% trans %}Stable, Secure and Scalable{% endtrans %}</small></h2>
+      <h3 class="text-center margin-0">{% trans %}Open Source Business Solution{% endtrans %}</h3>
+    <br>
     <br>
     <div class="row">
       <div class="col-md-4 col-sm-4 col-xs-12">
@@ -83,9 +83,9 @@
 <div class="col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
  <div class="divider-line"></div>
 </div>
-<section class="section-space">
-  <div class="container">
-    <h3 class="text-center"><strong>{% trans %}SELECT WHO YOU ARE !{% endtrans %}</strong>
+<section class="section-space job-info">
+  <div class="container padding-0">
+    <h3 class="text-center text-uppercase">{% trans %}Select who you are !{% endtrans %}
     </h3>
     <br>
     <div class="col-md-12 text-center">
@@ -93,13 +93,13 @@
         <!-- Nav tabs -->
         <ul class="nav nav-pills tab-heading">
           <li class="active">
-            <a href="#developer" data-toggle="tab">{% trans %}I’m a Developer{% endtrans %}</a>
+            <a href="#developer" data-toggle="tab" class="white-text-color selection-tab" >{% trans %}Developer{% endtrans %}</a>
           </li>
           <li>
-            <a href="#business" data-toggle="tab">{% trans %}I’m a Business Owner{% endtrans %}</a>
+            <a href="#business" data-toggle="tab" class="white-text-color selection-tab">{% trans %}Business Owner{% endtrans %}</a>
           </li>
           <li>
-            <a href="#decision" data-toggle="tab">{% trans %}I’m one of the Decision Maker{% endtrans %}</a>
+            <a href="#decision" data-toggle="tab" class="white-text-color selection-tab">{% trans %}Decision Maker{% endtrans %}</a>
           </li>
         </ul>
       </div>
@@ -115,17 +115,17 @@
           <br>
           <div class="row">
             <div class="col-md-4 text-center">
-              <img src="{{ STATIC }}images/developer-01.png" height="75" alt="">
+<img src="{{ STATIC }}images/history-python.png" alt="history-python" height="75" class=" content-center-xs">
               <p>{% trans %}Tryton is a three-tiers high-level general purpose application platform written in Python and use Postgresql as database engine.{% endtrans %}
               </p>
             </div>
             <div class="col-md-4 text-center border-left-right">
-              <img src="{{ STATIC }}images/developer-02.png" height="75" alt="">
+              <img src="{{ STATIC }}images/developer-02.png" height="75" alt="developer">
               <p>{% trans %}Most active open source community, get instant response on mailing list, IRC channels on freenode. {% endtrans %}
               </p>
             </div>
             <div class="col-md-4 text-center">
-              <img src="{{ STATIC }}images/developer-03.png" height="75" alt="">
+              <img src="{{ STATIC }}images/developer-03.png" height="75" alt="developer">
               <p>{% trans %}Join Tryton Unconference that happens every year in the month of November and explore creativity with like minded people.{% endtrans %}
               </p>
             </div>
@@ -138,19 +138,19 @@
           </p>
           <br>
           <div class="col-md-4 text-center">
-            <img src="{{ STATIC }}images/owner-01.png" height="75" alt="">
+            <img src="{{ STATIC }}images/owner-01.png" height="75" alt="owner">
             <p>{% trans %}Control your complete business information from the single and stable system.{% endtrans %}
             </p>
           </div>
           <div class="col-md-4 text-center border-left-right">
             <div class="border-left-right hidden-sm hidden-xs">
             </div>
-            <img src="{{ STATIC }}images/owner-02.png" height="75" alt="">
+            <img src="{{ STATIC }}images/owner-02.png" height="75" alt="owner">
             <p>{% trans %}Adapt the software to your business needs and get it up and running in just 2-4 weeks*.{% endtrans %}
             </p>
           </div>
           <div class="col-md-4 text-center">
-           <img src="{{ STATIC }}images/owner-03.png" height="75" alt="">
+           <img src="{{ STATIC }}images/owner-03.png" height="75" alt="owner">
            <p>{% trans %}Supercharge your business processes with a smooth migration from your legacy system.{% endtrans %}
            </p>
          </div>
@@ -185,15 +185,16 @@
 </div>
 <section class="section-space">
   <div class="container">
-    <h1 class="text-center"><small>{% trans %}EVERYTHING YOU NEED FOR{% endtrans %}</small><br>
-      <strong>{% trans %}MANAGING YOUR BUSINESS{% endtrans %}</strong></h1>
+    <h2 class="text-center"><small>{% trans %}Everything you need for{% endtrans %}</small></h2>
+      <h3 class="margin-0 text-center">{% trans %}Managing your business{% endtrans %}</h3>
+      <br>
       <br>
       <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12 app text-center">
           <a href="{{ SITE_ROOT }}inventory.html">
             <img src="{{ STATIC }}images/app/apps-inventory.png" alt="accounts_app" />
             <h4 class="text-center text-uppercase text-muted">{% trans %}Inventory Management{% endtrans %}</h4>
-            <h5 class="text-center text-muted">{% trans %}Manage and monitor your inventory levels{% endtrans %}</h5>
+            <h5 class="text-center text-muted">{% trans %}Manage and monitor<br> your inventory levels{% endtrans %}</h5>
             <div class="btn btn-default col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">{% trans %}View More{% endtrans %}</div>
           </a>
         </div>
@@ -217,7 +218,7 @@
         <a href="{{ SITE_ROOT }}accounts.html">
           <img src="{{ STATIC }}images/apps-accounts.png" alt="crm_app"/>
           <h4 class="text-center text-uppercase text-muted">{% trans %}Accounting{% endtrans %}</h4>
-          <h5 class="text-center text-muted">{% trans %}Automates complex accounting processes{% endtrans %}</h5>
+          <h5 class="text-center text-muted">{% trans %}Automates complex<br> accounting processes{% endtrans %}</h5>
           <div class="btn btn-default col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 col-xs-4 col-xs-offset-4">{% trans %}View More{% endtrans %}</div>
         </a>
       </div>
@@ -234,23 +235,23 @@
     <div class="row">
       <div class="col-md-6 col-sm-6 col-xs-12">
         <div class="col-md-3 col-sm-6 col-xs-12 text-center">
-         <img src="{{ STATIC }}images/history-languages.png" alt="" class="img img-responsive content-center-xs">
+         <img src="{{ STATIC }}images/history-languages.png" alt="owner" class="img img-responsive content-center-xs">
          <p class="no-wrap">{% trans %}Languages Supported{% endtrans %}</p>
        </div>
        <div class="col-md-3 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-12 text-center">
-        <img src="{{ STATIC }}images/history-python.png" alt="" class="img img-responsive content-center-xs">
+        <img src="{{ STATIC }}images/history-python.png" alt="owner" class="img img-responsive content-center-xs">
         <p>{% trans %} Main Language{% endtrans %}</p>
       </div>
       <div class="col-md-3 col-md-offset-1 col-sm-6 col-sm-offset-0 col-xs-12 text-center">
-        <img src="{{ STATIC }}images/history-contributers.png" alt="" class="img img-responsive content-center-xs">
+        <img src="{{ STATIC }}images/history-contributers.png" alt="owner" class="img img-responsive content-center-xs">
         <p>{% trans %}Total Contributers{% endtrans %}</p>
       </div>
       <div class="col-md-3 col-md-offset-2 col-sm-6 col-sm-offset-0 col-xs-12 text-center">
-        <img src="{{ STATIC }}images/history-loc.png" alt="" class="img img-responsive content-center-xs">
+        <img src="{{ STATIC }}images/history-loc.png" alt="owner" class="img img-responsive content-center-xs">
         <p>{% trans %}Lines of Code{% endtrans %}</p>
       </div>
       <div class="col-md-3 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-12 text-center">
-        <img src="{{ STATIC }}images/history-license.png" alt="" class="img img-responsive content-center-xs">
+        <img src="{{ STATIC }}images/history-license.png" alt="owner" class="img img-responsive content-center-xs">
         <p>{% trans %}License{% endtrans %}</p>
       </div>
     </div>
@@ -264,7 +265,9 @@
 </section>
 <section class="users section-space">
   <div class="container">
-    <h1 class="text-center"><small>{% trans %}COMPANIES THAT CHOOSE TRYTON{% endtrans %}</small><br><strong>{% trans %}TO MANAGE THEIR BUSINESS{% endtrans %}</strong></h1>
+    <h2 class="text-center"><small>{% trans %}Companies that choose Tryton{% endtrans %}</small></h2>
+    <h3 class="text-center margin-0">{% trans %}TO MANAGE THEIR BUSINESS{% endtrans %}
+    </h3>
     <br>
     <div id="carousel-user" class="carousel slide company-slider" data-ride="carousel">
       <!-- Wrapper for slides -->
