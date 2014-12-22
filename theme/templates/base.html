@@ -79,7 +79,8 @@
                 </li>
               </ul>
             </li>
-            <li class="main-menu"><a href="blogs/index.html">Blog</a></li>
+            <li class="main-menu"><a href="{{ SITE_ROOT }}blogs/index.html">Blog</a></li>
+            <li class="main-menu"><a href="{{ SITE_ROOT }}download.html">Download</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -93,26 +94,28 @@
   <!-- footer -->
   {% block footer %}
   {% block request_demo %}
-  <section class="know-more pull-left pad-all20">
+  <section class="know-more">
     <div class="container">
-      <div class="col-md-8 col-sm-12 col-xs-12">
-        <h3 class="white-text-color text-center">{% trans %}Want To Know More About {% endtrans %}<strong>TRYTON</strong></h3>
-        <h4 class="text-center-xs white-text-color text-center">{% trans %}Let us demonstrate how it can meet your business requirements.{% endtrans %}</h4>
-      </div>
-      <div class="col-md-4 col-sm-12 col-xs-12 text-center">
-        <div class="line_img pull-left hidden-sm hidden-xs"></div>
-        <button type="button" class="btn btn-lg btn-default mar_bottom3"><i class="fa fa-comments fa-lg"></i>&nbsp; &nbsp;{% trans %} REQUEST A DEMO{% endtrans %}</button>
+      <div class="row">
+        <div class="col-md-8 col-sm-12 col-xs-12">
+          <h3 class="white-text-color text-center">{% trans %}Want To Know More About {% endtrans %}<strong>TRYTON</strong></h3>
+          <h4 class="text-center-xs white-text-color text-center">{% trans %}Let us demonstrate how it can meet your business requirements.{% endtrans %}</h4>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12 text-center">
+          <div class="line-img pull-left hidden-sm hidden-xs"></div>
+          <button type="button" class="btn btn-lg btn-default"><i class="fa fa-comments fa-lg"></i>&nbsp; &nbsp;{% trans %} REQUEST A DEMO{% endtrans %}</button>
+        </div>
       </div>
     </div>
   </section>
   {% endblock request_demo %}
-  <div class="footer pull-left">
-    <div class="mar_top7 clearfix"></div>
+  <div class="clearfix"></div>
+  <div class="footer section-space">
     <div class="container">
       <div class="col-md-3 col-sm-6 col-xs-12 text-center-xs footer-set-height">
-        <img src="{{ STATIC }}images/footer-logo.png" alt="trytonLogo" />
-        <ul class="contact_address pull-left list-unstyled">
-          <li>Tryton.us{% trans %} is an initiative of Openlabs Technologies to aware people about Tryton ERP and its implementation.{% endtrans %}<br><br>{% trans %}It is a private initiative not intended to replace, or communicate on behalf of the whole Tryton community.{% endtrans %} 
+        <img src="{{ STATIC }}images/footer-logo.png" alt="trytonLogo" class="img img-responsive content-center-xs" />
+        <ul class="contact-address list-unstyled">
+          <li>tryton.us{% trans %} is an initiative of Openlabs Technologies to aware people about Tryton ERP and its implementation.<br><br>It is a private initiative not intended to replace, or communicate on behalf of the whole Tryton community.{% endtrans %} 
           </li>
           <li>{% trans %}Tryton is a registered trademark of the Tryton Foundation.{% endtrans %}</li>
           <li><img src="{{ STATIC }}images/footer-wmap.png" alt=""></li>
@@ -121,15 +124,15 @@
       <div class="col-md-3 col-sm-4 col-md-offset-0 col-sm-offset-2 col-xs-4 col-xs-offset-4 footer-set-height">
         <h3 class="footer_headings">Useful Links</h3>
         <ul class="link_list list-unstyled">
-          <li><a href="{{ SITE_ROOT }}index.html"><i class="fa fa-angle-right"></i> Home</a></li>
-          <li><a href="{{ SITE_ROOT }}features.html"><i class="fa fa-angle-right"></i> Features</a></li>
-          <li><a href="{{ SITE_ROOT }}app.html"><i class="fa fa-angle-right"></i> Apps</a></li>
-          <li><a href="{{ SITE_ROOT }}foundation.html"><i class="fa fa-angle-right"></i> Foundation</a></li>
-          <li><a href="{{ SITE_ROOT }}blogs/index.html"><i class="fa fa-angle-right"></i> Blog</a></li>
+          <li><a href="{{ SITE_ROOT }}index.html" class="text-muted"><i class="fa fa-angle-right"></i> Home</a></li>
+          <li><a href="{{ SITE_ROOT }}features.html" class="text-muted"><i class="fa fa-angle-right"></i> Features</a></li>
+          <li><a href="{{ SITE_ROOT }}app.html" class="text-muted"><i class="fa fa-angle-right"></i> Apps</a></li>
+          <li><a href="{{ SITE_ROOT }}foundation.html" class="text-muted"><i class="fa fa-angle-right"></i> Foundation</a></li>
+          <li><a href="{{ SITE_ROOT }}blogs/index.html" class="text-muted"><i class="fa fa-angle-right"></i> Blog</a></li>
         </ul>
       </div>
       <div class="col-md-3 col-sm-6 col-xs-12 text-center-xs footer-set-height">
-       <h3 class="footer_headings">Latest Tweets</h3>
+       <h3 class="white-text-color"><strong>Latest Tweets</strong></h3>
        <div class="twitter_feed">
         <a class="twitter-timeline" href="https://twitter.com/hashtag/tryton" data-widget-id="499079587393839106">#tryton Tweets</a>
         <script>
@@ -146,36 +149,31 @@
         </script>
       </div>
     </div>
-    <div class="col-md-3 col-sm-4 col-sm-offset-2 col-xs-12 col-md-offset-0 text-center-xs footer-set-height">
-      <h3 class="footer_headings">Join Community</h3>
+    <div class="col-md-3 col-sm-6 col-xs-12 text-center-xs footer-set-height">
+      <h3 class="white-text-color"><strong>Join Community</strong></h3>
       <ul class="list-unstyled">
         <li>
-          <a href="http://groups.tryton.org/" class="white-text-color"><i class="fa fa-google-plus"></i>&nbsp;&nbsp;GOOGLE GROUP</a>
+          <a href="http://groups.tryton.org/" class="white-text-color"><h5><i class="fa fa-google-plus"></i>&nbsp;&nbsp;GOOGLE GROUP</h5></a>
         </li>
         <li>
-          <a href="http://hg.tryton.org/" class="white-text-color"><i class="fa fa-github"></i>&nbsp;&nbsp;GET THE CODE</a>
+          <a href="http://hg.tryton.org/" class="white-text-color"><h5><i class="fa fa-github"></i>&nbsp;&nbsp;GET THE CODE</h5></a>
         </li>
-      </ul>
-      <br>
-      <br>
-      <p class="white-text-color">Tryton Fondation Privée <br>
-        Rue de Rotterdam, 4 <br>
-        4000 Liège <br>
-        Belgium <br><br>
-        <a href="mailto:foundation@tryton.org" target="_blank" class="white-text-color"><i class="fa fa-envelope"></i>&nbsp;&nbsp;foundation@tryton.org</a></p>
+        <li class="white-text-color">Tryton Fondation Privée <br>
+          Rue de Rotterdam, 4 <br>
+          4000 Liège <br>
+          Belgium <br><br>
+          <a href="mailto:foundation@tryton.org" target="_blank" class="white-text-color"><i class="fa fa-envelope"></i>&nbsp;&nbsp;foundation@tryton.org</a></li>
+        </ul>
       </div>
-      <div class="clearfix mar_top6"></div>
     </div>
     <div class="copyright_info">
-      <div class="clearfix mar_top6"></div>
       <div class="container">
         <div class="col-md-12 text-center">
           <p class="white-text-color">Made with <i class="fa fa-heart text-red"></i> by <strong><a href="https://www.openlabs.co.in" class="white-text-color">Team OPENLABS</a></strong></p>
         </div>
-        <div class="clearfix mar_top3 clearfix pull-left"></div>
       </div>
     </div>
-    <div class="content_licensed col-md-12 col-sm-12 col-xs-12">
+    <div class="content-licensed col-md-12 col-sm-12 col-xs-12">
      <div class="container">
       <b>Content Licensed as Creative Commons</b>
     </div>
@@ -191,14 +189,14 @@
 {% endblock script_imports %}
 
 {% block scripts %}
-<script>
-  $(document).ready(function(){
-    $(".nano").nanoScroller();
-    $(".scroll").click(function(){
+  <script>
+    $(document).ready(function(){
+      $(".nano").nanoScroller();
+      $(".scroll").click(function(){
       $("html,body").animate({scrollTop:$(this.hash).offset().top-105},2000);
+      });
     });
-  });
-</script>
+  </script>
 {% endblock scripts %}
 </body>
 </html>
